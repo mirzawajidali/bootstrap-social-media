@@ -1,0 +1,152 @@
+/* Font Family  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+:root {
+  --primary-color: #e4898e;
+  --primary-color-hover: #f58288;
+  --primary-color-dark: #fc5d65;
+  --white-color: #fff;
+  --light-white-color: #f5f3f4;
+  --dark-color: #000;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.form-control {
+  border-radius: 0%;
+  background-color: var(--light-white-color);
+  border: none;
+}
+.form-select {
+  border-radius: 0%;
+  border: none;
+  background-color: var(--light-white-color);
+}
+.form-select:focus {
+  box-shadow: none;
+  background-color: var(--light-white-color);
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: var(--light-white-color);
+}
+.link-text {
+  color: var(--primary-color-dark);
+  text-decoration: none;
+}
+.btn {
+  border-radius: 0%;
+  padding: 0.5rem 1.5rem;
+  border: none;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+}
+.btn-primary-dark {
+  background-color: var(--primary-color-dark);
+}
+.btn-primary:hover {
+  background-color: var(--primary-color-hover);
+}
+.login {
+  background-color: var(--primary-color);
+}
+.login-col {
+  padding-top: 40px;
+}
+
+.login-form {
+  background-color: var(--white-color);
+  padding: 40px 80px;
+}
+
+/* News Feed  */
+/* Navigation CSS */
+.navbar-nav .nav-item {
+  color: var(--dark-color);
+  padding-right: 70px;
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 0.5rem 1rem;
+  background-color: var(--white-color);
+  transition: all ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: var(--light-white-color);
+  color: var(--primary-color-dark);
+}
+.newsfeed {
+  padding-top: 70px;
+}
+.card {
+  border-radius: 0%;
+  border: none;
+  background-color: var(--white-color);
+}
+.post-button {
+  background-color: var(--white-color);
+}
+.profile-img {
+  width: 95px;
+}
+.profile-box {
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+.profile-image-circle {
+  padding-right: 40px;
+}
+.like {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all ease-in-out;
+  padding-right: 10px;
+}
+.like:hover {
+  color: var(--primary-color-dark);
+}
+.user-profile-img {
+  padding-right: 20px;
+}
+.user-post-profile-image {
+  width: 60px;
+}
+.post-time {
+  font-size: 14px;
+}
+/* Color  */
+/* e4898e */
+
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: var(--white-color);
+  border: none;
+  color: var(--dark-color);
+}
+.box {
+  background-color: var(--light-white-color);
+  padding: 15px;
+}
+.user-info-comment {
+  line-height: 35px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+.comment-image {
+  width: 50px;
+  padding-right: 10px;
+}
+
+/* Profile Page CSS  */
+.profile-container {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.profile-image-style {
+  width: 170px;
+}

@@ -1,0 +1,18 @@
+/* Ipad Pro  */
+@media (max-width: 1030px) {
+}
+/* Ipad  */
+@media (max-width: 991px) {
+}
+/* Mobile  */
+@media (max-width: 767px) {
+  .form-row {
+    flex-direction: column-reverse;
+  }
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+}
